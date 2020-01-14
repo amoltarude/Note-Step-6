@@ -1,0 +1,20 @@
+2019-12-11 13:58:49 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.data.mongodb.host' to java.lang.String:
+
+    Property: spring.data.mongodb.host
+    Value: ${MONGO_HOST}
+    Origin: class path resource [application.yml]:8:13
+    Reason: Could not resolve placeholder 'MONGO_HOST' in value "${MONGO_HOST}"
+
+Action:
+
+Update your application's configuration
+
